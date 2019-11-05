@@ -23,8 +23,22 @@ class Scraper
 
   def self.scrape_profile_page(profile_url)
     
-  end
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #end
 
-end
+#end
 
 #names : doc.css("h4.student-name").text
