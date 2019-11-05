@@ -4,7 +4,7 @@ require 'pry'
 class Scraper
 
   def self.scrape_index_page(index_url)
-   doc = Nokogiri::(open)
+   doc = Nokogiri::HTML(open(index_url))
     binding.pry
     
   end
@@ -15,3 +15,4 @@ class Scraper
 
 end
 
+#names : doc.css("h4.student-name").text
